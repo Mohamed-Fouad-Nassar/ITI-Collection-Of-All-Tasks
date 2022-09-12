@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS Files/Main.CSS">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">
+                    <h1>Registeration Form</h1>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="name">User Name: </label>
+                </td>
+                <td>
+                    <input id="name" type="text" name="User Name">
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password: </label>
+                </td>
+                <td>
+                    <input id="pass" type="password" name="Password">
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age: </label>
+                </td>
+                <td>
+                    <input id="age" type="number" name="Age">
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">Email: </label>
+                </td>
+                <td>
+                    <input id="mail" type="text" name="E-mail">
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="genders">Gender: </label>
+                </td>
+                <td>
+                    <div class="genders" id="genders">
+                        <input type="radio" id="male" name="Gender" value="Male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="Gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="interests">Interests: </label>
+                </td>
+                <td>
+                    <div class="interests" id="interests">
+                        <input type="checkbox" name="Interests" id="One" value="Swimming">
+                        <label for="One">Swimming</label>
+                        <br>
+                        <input type="checkbox" name="Interests" id="Two" value="Reading">
+                        <label for="Two">Reading</label>
+                        <br>
+                        <input type="checkbox" name="Interests" id="Three" value="Cycling">
+                        <label for="Three">Cycling</label>
+                    </div>
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City: </label>
+                </td>
+                <td>
+                    <select name="City" id="city">
+                <optgroup label="Select City">
+                    <option value="EGY">EGY</option>
+                    <option value="UAE">UAE</option>
+                    <option value="KSA">KSA</option>
+                </optgroup>
+            </select>
+                </td>
+                <td>
+                    <label class="hidden"></label>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot class="Buttons">
+            <tr>
+                <td colspan="3">
+                    <button class="Btn-one">Validate</button>
+                    <button class="Btn-two">Clear</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="../JS Files/Main.JS"></script>
+</body>
+
+</html>

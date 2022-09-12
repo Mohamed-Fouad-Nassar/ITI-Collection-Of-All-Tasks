@@ -1,0 +1,38 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    height: fit-content;
+    padding: 30px;
+    margin: 10px auto;
+    border: 1px solid blue;
+}
+
+table thead td,
+table tfoot td {
+    padding: 20px;
+}
+
+table thead td h1 {
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0px;
+}
+
+table tbody td {
+    padding: 10px;
+}
+
+label.hidden {
+    color: red;
+    font-weight: 700;
+}
+
+table tfoot.Buttons {
+    padding-top: 30px;
+    text-align-last: center;
+}
+
+table tfoot.Buttons tr td button.Btn-one {
+    margin-right: 10px;
+}
